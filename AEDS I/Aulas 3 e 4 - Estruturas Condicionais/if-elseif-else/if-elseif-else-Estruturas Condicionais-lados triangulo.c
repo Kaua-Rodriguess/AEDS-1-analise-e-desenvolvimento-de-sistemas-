@@ -1,4 +1,4 @@
-/*!Leia 3 números inteiros, selecione o menor e o maior e imprima
+/*!Leia 3 nmeros inteiros, selecione o menor e o maior e imprima
 os seus respectivos valores na tela*/
 
 #include<stdio.h>
