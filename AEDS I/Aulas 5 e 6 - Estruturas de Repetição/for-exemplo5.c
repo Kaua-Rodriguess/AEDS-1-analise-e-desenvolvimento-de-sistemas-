@@ -1,23 +1,29 @@
 /*! Faça um programa para ler dois números inteiros e
  multiplicá-los sem utilizar a
-operação de multiplicação*/
+operação de multiplicação
+
+for (início; condição; incremento) {
+     código que será repetido
+}
+
+*/
 #include <stdio.h>
 int main()
 {
-int n1,n2,i,soma;
+int n1,n2;
 
-printf("numero1:\n");
+printf("que quero multiplicar:\n");//numero que quero multiplicar
 scanf("%i",&n1);
 
-printf("n2:\n");
+printf("por:\n");// quantos vezes eu quero que o numero 1 repita
 scanf("%i",&n2);
 
-for(i=1;i<= n2;i++){
-  soma +=n1;
-        printf("produto:%i",soma);
+ int total=0;
 
+for(int i=0;i<n2;i++){
+        total+=n1;
 }
-
+printf("Resultado:%i\n",total);
 
 return 0;
 }

@@ -4,7 +4,7 @@ int main()
 {
 
                 /*incremento é aquilo que altera o i*/
-for(int i=0;i<4;i++){
+for(int i=0;i<9;i++){
     int multiplo= i*5;
         printf("%i \n",multiplo);
 

@@ -15,6 +15,7 @@ for-para(1ºINÍCIO,2ºEXPRESSÃO,3ºINCREMENTO){ lista de comandos }
     printf("numero:%i\n",i);
 }*/
 
+//! mostre a saída na tela para o código abaixo:/
 for(int i=0; i<10; i+=2){
     printf("numero:%i\n",i);
 }
