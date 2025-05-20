@@ -23,7 +23,7 @@ scanf("%i",&n2);
 for(int i=0;i<n2;i++){
         total+=n1;
 }
-printf("Resultado:%i\n",total); //se colocar o printf fora do for ele não printa a repetição
+printf("Resultado:%i\n",total); //se colocar o printf fora do for ele não printa a repetição.
 
 return 0;
 }
