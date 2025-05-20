@@ -1,9 +1,9 @@
-/*! Faça um programa para ler dois números inteiros e
- multiplicá-los sem utilizar a
-operação de multiplicação
+/*! Faï¿½a um programa para ler dois nï¿½meros inteiros e
+ multiplicï¿½-los sem utilizar a
+operaï¿½ï¿½o de multiplicaï¿½ï¿½o
 
-for (início; condição; incremento) {
-     código que será repetido
+for (inï¿½cio; condiï¿½ï¿½o; incremento) {
+     cï¿½digo que serï¿½ repetido
 }
 
 */
@@ -23,7 +23,7 @@ scanf("%i",&n2);
 for(int i=0;i<n2;i++){
         total+=n1;
 }
-printf("Resultado:%i\n",total);
+printf("Resultado:%i\n",total); //se colocar o printf fora do for ele nÃ£o printa a repetiÃ§Ã£o
 
 return 0;
 }
