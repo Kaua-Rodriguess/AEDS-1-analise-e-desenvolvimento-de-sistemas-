@@ -2,7 +2,7 @@
 int main()
 {
 /*!
-for-para(1∫INÕCIO,2∫EXPRESS√O,3∫INCREMENTO){ lista de comandos }
+for-para(1∫INÕCIO,2∫CONDI«√O,3∫INCREMENTO){ lista de comandos }
 
 -"ler"-o computador l (scanf)
 -"escrever"- o computador ESCREVE(printf)
