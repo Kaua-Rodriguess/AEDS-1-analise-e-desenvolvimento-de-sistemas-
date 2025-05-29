@@ -1,7 +1,7 @@
 /*! 2. Fazer um programa para ler dois números inteiros e calcular e imprimir a diferença desses
- numeros. Depois, se o segundo n�mero for diferente de zero, fazer a divisao do primeiro
+ numeros. Depois, se o segundo número for diferente de zero, fazer a divisao do primeiro
  pelo segundo.
- 1-ler dois n�meros inteiros
+ 1-ler dois números inteiros
  2-calcular e imprimir a diferen�a desses n�meros
  3-se o segundo n�mero for diferente de zero, fazer a divis�o do primeiro
  pelo segundo.
