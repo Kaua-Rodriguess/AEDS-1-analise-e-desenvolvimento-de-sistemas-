@@ -1,5 +1,5 @@
-/*!3. Faça um programa
-para calcular o N-ésimo termo da sequência de Fibonacci
+/*!3. FaÃ§a um programa
+para calcular o N-esimo termo da sequencia de Fibonacci
 (1, 1, 2, 3,5, 8, 13, 21, ...)*/
 #include <stdio.h>
 int main()

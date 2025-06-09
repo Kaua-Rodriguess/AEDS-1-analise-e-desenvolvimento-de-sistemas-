@@ -20,20 +20,18 @@ int main()
     printf("Digite um numero:/n");
         scanf("%i",&num);
 
-    if( num=1 || num=2);
+    if( num==1 || num==2);
     {
         float base, altura;
 
         printf("Digite a base e a altura de um retangulo:\n");
         scanf("%f %f",&base,&altura);
 
-        float area=3.14/4 * sqrt(pow(base,2)+(pow(altura,2);
-            printf("a area do circulo circunscrito é:/n",area);
+        float area=3.14/4 * sqrt(pow(base,2))+(pow(altura,2));
+            printf("a area do circulo circunscrito e:/n",area);
 
             //área do círculo circunscrito: A=π*( raiz b²+bh²) area= 3.14/4 * sqrt(pow(b,2)+(pow(h,2)
-​
-    }
+    } //
 
-
-    return 0:
+    return 0;
 }

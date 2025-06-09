@@ -18,11 +18,11 @@ int par(int n){
 return n*2;
 }
 void mostrarParesEmOrdemDecrescente(){
+
     for(i=0;){}
 
         printf();
     }
-
 
 }
 

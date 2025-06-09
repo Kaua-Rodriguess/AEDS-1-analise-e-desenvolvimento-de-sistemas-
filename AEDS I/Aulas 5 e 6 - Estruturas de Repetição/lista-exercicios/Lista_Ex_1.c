@@ -1,12 +1,12 @@
 /*!
-Lista 03- Repetição
-1. Fazer um programa para ler n números inteiros e imprimir a soma deles. O n valor de
+Lista 03- RepetiÃ§Ã£o
+1. Fazer um programa para ler n nÃºmeros inteiros e imprimir a soma deles. O n valor de
 deve ser lido do teclado.
 */
 #include <stdio.h>
 int main()
 {
-    int n;//n é a minha repetição, então i<n ou i até n
+    int n;//n Ã© a minha repetiÃ§Ã£oo, entao i<n ou i atÃ© n
 
     printf("digite quantos numeros que vc quer somar:\n");
     scanf("%i",&n);
@@ -19,10 +19,10 @@ int main()
         printf("Digite um numero:");
         scanf("%i",&numero);
 
-        soma+=numero; // Isso acontece a cada repetição, de forma "invisível"
+        soma+=numero; // Isso acontece a cada repetiÃ§Ã£o, de forma "invisÃ­vel"
     }
 
-    //print o resultado da
+    //print o resultado da soma dos numeros digitados
     printf("Resultado:%i\n",soma);
 
 

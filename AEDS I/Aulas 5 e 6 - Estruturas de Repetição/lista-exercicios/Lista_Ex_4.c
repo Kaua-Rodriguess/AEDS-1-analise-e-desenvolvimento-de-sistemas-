@@ -1,6 +1,6 @@
 /*! 4. Os alunos de uma turma com numAlunoS fizeram numProva provas. Leia cada uma das
- numProva provas feitas por cada um dos numAlunoS alunos. Imprima na tela: a média
- de cada aluno, a média da turma e o percentual dos alunos que tiveram média maior ou
+ numProva provas feitas por cada um dos numAlunoS alunos. Imprima na tela: a mÃ©dia
+ de cada aluno, a mÃ©dia da turma e o percentual dos alunos que tiveram mÃ©dia maior ou
  igual a 80%.*/
 
 #include <stdio.h>
@@ -36,7 +36,7 @@ int main()
 
             soma+=nota;
         }
-        media= soma/n_provas;//media de cada aluno é a soma das notas dividida pela quantidade de provas
+        media= soma/n_provas;//media de cada aluno Ã© a soma das notas dividida pela quantidade de provas
         printf("a media de cada aluno e:%.2f\n",media);
         somaTurma+=media;
         soma=0;

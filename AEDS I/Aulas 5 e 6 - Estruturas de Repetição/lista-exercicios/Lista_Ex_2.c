@@ -1,4 +1,4 @@
-/*!2. Faça um programa para imprimir os múltiplos de 5.*/
+/*!2. FaÃ§a um programa para imprimir os multiplos de 5.*/
 #include <stdio.h>
 int main()
 {
