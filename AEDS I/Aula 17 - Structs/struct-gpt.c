@@ -1,5 +1,6 @@
 /*
 esse exercício esta no slide
+33
 Exercício 1
 Crie um programa que permita armazenar o nome, a altura e da
 data de nascimento de até 10 pessoas. Cada pessoa deve ser
@@ -17,17 +18,19 @@ função. */
 #include <stdlib.h>
 #include <time.h>
 
-struct Data{
+#define TAM 10
+//
+typedef struct{
     int dia;
     int mes;
     int ano;
-};
+}Data;
 
-struct Pessoa{
+typedef struct {
     char nome[100]; //string de nome
     float altura;
-    struct Data nascimento;
-};
+    Data dataNascimento;
+}Pessoa;
 
 //Função para gerar uma data aleatória
 struct Data gerarDataAleatoria(){
@@ -41,10 +44,10 @@ struct Data gerarDataAleatoria(){
 int main(){
 
     //vetor de 10 pessoas
-struct Pessoa pessoas[10];
+struct Pessoa pessoas[TAM];
 
 //laço para preencher os dados
-for (int i=0;i<10;i++){
+for (int i=0;i<TAM;i++){
     printf("Digite o nome da pessoa %d: ",i+1);
     scanf(" %[^\n]",pessoas[i].nome); //lê nome com espaços //%[^\n] não emtendi essa sintaxe
 
