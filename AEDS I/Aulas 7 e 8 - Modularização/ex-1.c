@@ -1,31 +1,23 @@
-/*!1. Fazer uma funÁ„o int par(int n) que recebe um n˙mero inteiro n e retorna o n-Èsimo
- termo da sequÍncia 2,4,6,8,10,12,...
+/*!1. Fazer uma fun√ß√£oo int par(int n) que recebe um n√∫mero inteiro n e retorna o n-esimo
+ termo da sequencia 2,4,6,8,10,12,...
  int par(parametro)
 
  main
  x=par(n) argumento
 
-
+[tipo de retorno] [nome] ([lista de argumentos]) {
+ return [vari√°vel de retorno]
+ }
  */
 
 
 #include <stdio.h>
 
 
-
 int par(int n){
 
 return n*2;
 }
-void mostrarParesEmOrdemDecrescente(){
-
-    for(i=0;){}
-
-        printf();
-    }
-
-}
-
 
 int main()
 {
@@ -35,7 +27,7 @@ int num;
 printf("digite a posicao na sequencia que vc quer o valor:\n");
 scanf("%i",&num);
 
-int x=par(num);
+int x=par(num);//x vai receber o valor da fun√ß√£o par, passando a vari√°vel num como parametro 
 printf("o valor na posicao %i e: %i",num,x);
 
 
