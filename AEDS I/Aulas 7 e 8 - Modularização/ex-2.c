@@ -16,16 +16,21 @@ int par(int n){
 }
 
 void mostrarParesEmOrdemDecrescente(int n){
-    int x=par(int n);
-    for(i=0,i<x,i--){
+    int x=par(n);
+    for(int i=0;i< x;i++){
         x/=2;
-        printf("mostrar:",x);
+        printf("mostrar:%d",x);
     }
 
 
 }      
 
 int main(){
+    int num;
+    printf("digite um numero:");
+    scanf("%d",&num);
+
+    
 
 
 

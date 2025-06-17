@@ -15,7 +15,6 @@
 
 
 int par(int n){
-
 return n*2;
 }
 
