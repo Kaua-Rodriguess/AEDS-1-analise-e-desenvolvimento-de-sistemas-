@@ -6,6 +6,7 @@
         "scminput": false
     },
     "files.associations": {
-        "string": "cpp"
+        "string": "cpp",
+        "iostream": "cpp"
     }
 }
