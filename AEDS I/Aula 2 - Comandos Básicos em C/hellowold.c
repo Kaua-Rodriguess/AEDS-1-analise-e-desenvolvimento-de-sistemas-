@@ -1,7 +1,13 @@
 #include <stdio.h>
-int main() {
-    printf ("estou em apuros \n me ajude \n vamos lá");
+
+//inteiro principal
+
+int main(){
+
+    printf("oi aeixa, me livre do kaua");
+
     return 0;
 }
+
 
 

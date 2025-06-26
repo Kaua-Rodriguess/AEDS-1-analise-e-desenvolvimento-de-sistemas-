@@ -13,13 +13,11 @@
 
 #include <stdio.h>
 
-
 int par(int n){
 return n*2;
 }
 
-int main()
-{
+int main(){
 
 int num;
 
@@ -28,7 +26,6 @@ scanf("%i",&num);
 
 int x=par(num);//x vai receber o valor da função par, passando a variável num como parametro 
 printf("o valor na posicao %i e: %i",num,x);
-
 
 
 

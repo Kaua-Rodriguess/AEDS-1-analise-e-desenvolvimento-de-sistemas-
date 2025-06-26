@@ -64,7 +64,7 @@ for(int i;i<10;i++){
     printf("Altura: %f.2 m\n", pessoas[i].altura);
     printf("Data de nascimento: %02d/%02d/%d\n", pessoas[i].nascimento.dia, pessoas[i].nascimento.mes,pessoas[i].nascimento.ano); //pq 02d?
 }
-po
+
     return 0;
 }
 
