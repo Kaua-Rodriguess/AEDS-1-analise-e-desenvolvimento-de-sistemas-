@@ -13,8 +13,9 @@
 
 #include <stdio.h>
 
-int par(int n){
-return n*2;
+int par(int num){
+    int res = num*2;
+    return res;
 }
 
 int main(){
