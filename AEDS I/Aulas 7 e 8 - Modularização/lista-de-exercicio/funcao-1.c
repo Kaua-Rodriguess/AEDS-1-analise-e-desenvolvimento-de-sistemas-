@@ -19,7 +19,7 @@ int main (){
     return 0;
 }
 
-int multiplicacao(int n1,int n2)
+int multiplicacao(int n1,int n2)/*! diferente de void a minha função espera receber dois numeros inteiros*/
 {
     int resultado;
 
