@@ -24,7 +24,7 @@ int main(){
         scanf("%d",&vetor[i]);
     };
 
-    printf("Vetor:\n")
+    printf("Vetor:\n");
 
     //exibir o valor de cada posição 
     for(int i=0;i<10;i++){
