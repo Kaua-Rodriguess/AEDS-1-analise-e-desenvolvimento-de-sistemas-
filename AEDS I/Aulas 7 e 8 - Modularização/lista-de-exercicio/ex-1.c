@@ -13,9 +13,9 @@
 
 #include <stdio.h>
 
+//função que retorna o numero da posição escolhida
 int par(int num){
-    int resposta = num*2;
-    return resposta;
+    return num *2;
 }
 
 int main(){

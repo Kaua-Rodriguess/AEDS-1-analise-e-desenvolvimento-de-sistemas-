@@ -10,31 +10,32 @@
  }
  */
 #include <stdio.h>
-
+//função que retorna o numero da posição escolhida
 int par(int num){
     return num*2;
 }
 
-void mostrarParesEmOrdemDecrescente(n){
-    int parF=par(n);//chamei a função que pego o number da posição na sequencia
-    int resultado;
+//função que mostra os numeros em ordem descrescente
+void mostrarParesEmOrdemDecrescente( int n){
+    printf("Pares em ordem descrescente:\n");
 
-    for(int i=n;i>0;i--){
-    resultado= n/2;
+    for(int i=n;i>=1;i--){
+        int valor= par(i);// pego o number da posição na sequencia
+        printf("%d \n",valor);//mostra o valor
     }
-
-    printf("Ordem par descrescente: %d\n",resultado);
+      printf("\n");
 }
 
 int main(){
 
     int v;//valor
-    int resultadoPar;
 
-    printf("digite um numero:");
+    printf("Digite a quantidade de termos da sequencia de pares que deseja ver:\n");
     scanf("%d",&v);
 
-    resultadoPar=par(v);
+    // Chamada das funções
+    int resultadoPar= par(v);
+    printf("o valor na posicao %d e: %d\n",v,resultadoPar);
 
     mostrarParesEmOrdemDecrescente(v);
 
