@@ -2,9 +2,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int multiplicacao(int n1,int n2)/*! diferente de void a minha fun��o espera receber dois numeros inteiros*/
+{
+    int resultado;
+
+    resultado= n1*n2;
+
+    return(resultado);/*! aqui ela retorna o a�ao da fun�ao, nesse caso, multiplicar 2 valores*/
+}
 
 int main (){
-    int v1,v2,resultado;
+    int v1,v2,resultadoM;
 
    printf("Digite o valor 01:\n");
    scanf("%d",&v1);
@@ -12,10 +20,10 @@ int main (){
    printf("Digite o valor 02:\n");
    scanf("%d",&v2);
 
-   resultado = multiplicacao(v1,v2);
-   printf("O resultado e:%d \n",resultado);
+   resultadoM = multiplicacao(v1,v2);
+   printf("O resultado e:%d \n",resultadoM);
 
-/*O diferencial de se usar uma função é que se ele não tem que ficar repetindo a mesma estrutura 
+/*!O diferencial de se usar uma função é que se ele não tem que ficar repetindo a mesma estrutura
 toda hora pra executar ocódigo, a função vai rodar onde ela for chamada, como nesse caso, eu consigo fazer
  duas multiplicações */
 
@@ -25,20 +33,13 @@ toda hora pra executar ocódigo, a função vai rodar onde ela for chamada, como
    printf("Digite o valor 02:\n");
    scanf("%d",&v2);
 
-   resultado = multiplicacao(v1,v2);
-   printf("O resultado e:%d \n",resultado);
+   resultadoM = multiplicacao(v1,v2);
+   printf("O resultado e:%d \n",resultadoM);
 
     return 0;
 }
 
-int multiplicacao(int n1,int n2)/*! diferente de void a minha fun��o espera receber dois numeros inteiros*/
-{
-    int resultado;
 
-    resultado= n1*n2;
-
-    return(resultado);/*! aqui ela retorna o a�ao da fun�ao, nesse caso, multiplicar 2 valores*/
-}
 
 
 

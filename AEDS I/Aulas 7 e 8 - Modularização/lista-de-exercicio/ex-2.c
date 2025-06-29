@@ -11,32 +11,32 @@
  */
 #include <stdio.h>
 
-int par(int n){
-    return n*2;
+int par(int num){
+    return num*2;
 }
 
+void mostrarParesEmOrdemDecrescente(n){
+    int parF=par(n);//chamei a função que pego o number da posição na sequencia
+    int resultado;
 
-void mostrarParesEmOrdemDecrescente(int n){
-    int x=par(n);
-    for(int i=x;i>0;i--){
-        if(x%2==0){
-            printf("mostrar:%d",x);
-        }
+    for(int i=n;i>0;i--){
+    resultado= n/2;
     }
-}      
+
+    printf("Ordem par descrescente: %d\n",resultado);
+}
 
 int main(){
-    
-    int num;
+
+    int v;//valor
+    int resultadoPar;
+
     printf("digite um numero:");
-    scanf("%d",&num);
-    
-    mostrarParesEmOrdemDecrescente(num);
-    
-    
-    
-    
-    
+    scanf("%d",&v);
+
+    resultadoPar=par(v);
+
+    mostrarParesEmOrdemDecrescente(v);
 
     return 0;
 }

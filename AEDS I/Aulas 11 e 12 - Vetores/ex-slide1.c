@@ -24,6 +24,10 @@ int main(){
         scanf("%d",&vetor[i]);// endereço da posição i do vetor
     };
 
+    for(int i;i>10;i++){
+        printf("%d",vetor[i]);
+    };;
+
 
     return 0;
 }

@@ -14,20 +14,19 @@
 #include <stdio.h>
 
 int par(int num){
-    int res = num*2;
-    return res;
+    int resposta = num*2;
+    return resposta;
 }
 
 int main(){
 
-int num;
+int v1;//valor
 
 printf("digite a posicao na sequencia que vc quer o valor:\n");
-scanf("%i",&num);
+scanf("%i",&v1);
 
-int x=par(num);//x vai receber o valor da função par, passando a variável num como parametro 
-printf("o valor na posicao %i e: %i",num,x);
-
+int resultadoP= par(v1);//x vai receber o valor da função par, passando a variável num como parametro
+printf("o valor na posicao %i e: %i",v1,resultadoP);
 
 
 return 0;
