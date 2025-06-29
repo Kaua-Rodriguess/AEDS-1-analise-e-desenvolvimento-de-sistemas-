@@ -25,7 +25,7 @@ int multiplicacao(int n1,int n2)/*! diferente de void a minha função espera rece
 
     resultado= n1*n2;
 
-    return(resultado);
+    return(resultado);/*! aqui ela retorna o açao da funçao, nesse caso, multiplicar 2 valores*/
 }
 
 
