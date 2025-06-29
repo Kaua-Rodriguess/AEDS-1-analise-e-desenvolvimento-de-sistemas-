@@ -1,12 +1,9 @@
 /*Exercício 1: Inicialização e Acesso a Elementos do Vetor
- 
 Enunciado:
- Escreva um programa em C que declare um vetor de 10 elementos 
+ Escreva um programa em C que declare um vetor de 10 elementos
 inteiros.
-
- O programa deve ler 10 valores do usuário e armazená-los no vetor. 
+ O programa deve ler 10 valores do usuário e armazená-los no vetor.
 Em seguida, exiba todos os elementos do vetor.
-
  Exemplo de saída
  Digite o valor 1: 5
  Digite o valor 2: 12
@@ -19,15 +16,21 @@ Em seguida, exiba todos os elementos do vetor.
 int main(){
     int vetor[10];// vetor de 0 até 9
 
-    for(int i=0;i<=9;i++){
-        printf("Digite um valor:\n");
-        scanf("%d",&vetor[i]);// endereço da posição i do vetor
+   //!vetor[i] é o conteúdo, i é a posição
+
+    //quardar o valor em cada posição do vetor
+    for(int i=0;i<10;i++){
+        printf("Digite o valor %d:",i++);
+        scanf("%d",&vetor[i]);
     };
 
-    for(int i;i>10;i++){
-        printf("%d",vetor[i]);
-    };;
+    printf("Vetor:\n")
 
+    //exibir o valor de cada posição 
+    for(int i=0;i<10;i++){
+        printf("valor da posicao %d: %d \n",i,vetor[i]);
+    };
 
+    printf("/n");
     return 0;
 }
