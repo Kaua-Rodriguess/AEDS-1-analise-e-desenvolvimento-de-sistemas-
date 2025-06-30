@@ -29,20 +29,15 @@ int main()
             }
     }
 
-    //fazer a parte comentada a mão depois
-
-
-
-
-
-    /* Soma dos valores
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 4; j++) {
-            soma += matriz[i][j];
+    //soma de todos os elementos d matriz
+    for(int i=0;i<3;i++){
+        for(int j=0;j<4;j++){
+            soma+=matriz[i][j];
         }
     }
 
-    printf("A soma dos elementos da matriz é: %d\n", soma);*/
+
+    printf("A soma dos elementos da matriz e: %d\n", soma);
 
 
 
