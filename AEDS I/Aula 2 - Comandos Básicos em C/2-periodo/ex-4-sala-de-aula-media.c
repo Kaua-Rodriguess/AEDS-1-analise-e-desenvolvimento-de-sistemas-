@@ -1,6 +1,10 @@
 /*!ENTRADA: 3 notas
 SAÍDA: some a média de 3 notas
 */
+
+//! incluindo uma biblioteca
+#include <stdio.h>
+
 int main(){
     //!declarando o nome e o tipo de variável que eu irei utilizar
     float n1,n2,n3,soma,media;
@@ -31,10 +35,10 @@ int main(){
     somente fazer igual eu fiz abaixo*/
     media=soma/3;
 
-    /*! agora */
-    printf(" A soma das tres notas e: %.2f \n A media é: %.2f \n",soma,media);
-
-
+    /*!- quando eu quero apenas SAIR com o meu resultado na tela eu uso um PRINTF
+    - Onde eu colocar o "%TIPO DE VARIÁVEL", %i, %f, vai onde eu quero exibir meu resultado no texto
+    */
+    printf(" A soma das tres notas e: %.2f \n A media e: %.2f \n",soma,media);
 
     return 0;
 }
