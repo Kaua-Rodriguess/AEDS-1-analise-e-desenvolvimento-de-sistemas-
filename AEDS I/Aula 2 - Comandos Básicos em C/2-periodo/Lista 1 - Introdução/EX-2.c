@@ -16,7 +16,7 @@ Tarefas:
 
 int main(){
 
-    char letra='8';
+    char letra='A';
     float preco=9.99;
 
     printf("Letra: %c\n",letra);
