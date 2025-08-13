@@ -1,6 +1,6 @@
 /*!Exercício 9) Escreva um programa onde serão fornecidos como entrada de dados dois
 valores inteiros, calcule e imprima a soma, o produto, a diferença, o quociente destes
-números.  */
+números.ESCREVER A MÃO  */
 
 #include <stdio.h>
 int main(){
