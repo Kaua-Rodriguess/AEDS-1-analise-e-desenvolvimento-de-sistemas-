@@ -1,4 +1,12 @@
-/*FaÃ§a um programa que leia trÃªs nÃºmeros inteiros e os exiba em ordem crescente.*/
+/*Faça um programa que leia três números inteiros e os exiba em ordem crescente.*/
+
+possibilidades:
+    a<=b<=c
+    a<=c<=b
+    b<=a<=c
+    b<=c<=a
+    c<=a<=b
+    c<=b<=a
 
 #include <stdio.h>
 
@@ -8,14 +16,13 @@ int main(){
     printf("escreva tres numeros:");
     scanf("%d %d %d", &a,&b,&c);
 
-    if(a<b && b<c){
+    if(a<=b && b<=c){
         printf("Ordem crescente dos numeros: %d %d %d",a,b,c);
     }
     else if(b<a && a<c){
-
-        int temp=b;
+        /*int temp=b;
         b=a;
-        a=temp;
+        a=temp;*/
          printf("Ordem crescente dos numeros: %d %d %d",a,b,c);
 
     }
@@ -25,3 +32,4 @@ int main(){
 
     return 0;
 }
+

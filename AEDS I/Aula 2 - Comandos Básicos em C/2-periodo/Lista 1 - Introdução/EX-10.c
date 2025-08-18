@@ -10,7 +10,7 @@ int main(){
     scanf("%f",&f);
 
     //convertendo a temperatura
-    c=(5/9)*(f-32);
+    c=(5.0/9.0)*(f-32);
     printf("Temperatura em Centigrados e: %.4f",c);
 
 
