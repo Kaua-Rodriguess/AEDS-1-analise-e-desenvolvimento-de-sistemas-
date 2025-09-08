@@ -24,7 +24,7 @@ printf("Digite sua nota3: \n");
 scanf("%f",&nota3);
 
 soma=nota1+nota2+nota3;
-
+ 
 media=soma/3;
 
 if(media>=7){
@@ -32,16 +32,20 @@ if(media>=7){
 }
 else if(media>=5 && media<=6.9){
 
-    /*  notaFinal=media+reavaliação/2 >= 7
-            operação algebrica
-        notaFinal= media+reavaliação=7*2
-        reavaliação=14-media
+    /* 
+     ==========OPERAÇÃO ALGEBRICA=========
+     "nota final do aluno é a média simples entre 
+     a média das três provas e a nota da reavaliação."
+     
+        notaFinal --> media + reavaliação/2 >= 7
+        notaFinal --> media + reavaliação = 7*2
+        notaFinal --> reavaliação + media=14
+        notaFinal --> reavaliação= 14 - media
         */
-    notaMax=14-media;//quantos ele precisa para passar
+    notaMax=14-media;// maximo que ele precisa tirar para passar
 
-    printf("Voce precisa tirar %.2f pontos para passar na reavaliacao! \n",notaMax);//quantos ele precisa para tirar na reavaliacao
-
-    printf("Quantos voce tirou na reavaliacao?");
+    printf("\n Voce esta de recuperacao,e necessario tirar %.2f pontos para passar na reavaliacao! \n",notaMax);//quantos ele precisa para tirar na reavaliacao
+    printf("\n Quantos voce tirou na reavaliacao?\n");
     scanf("%f",&reavaliacao);
 
     if(reavaliacao>=notaMax){
@@ -50,11 +54,6 @@ else if(media>=5 && media<=6.9){
     else{
         printf("Infelizmente voce foi reprovado!");
     }
-
-
-    //nota final:media das 3 notas+nota da reav/2
-    //10-nota final=quantos ele precisa tirar na reavaliação
-    //10-medias das 3 notas = 10-6=4 6+4=10/4
 }
 else{
     printf("Reprovado!");

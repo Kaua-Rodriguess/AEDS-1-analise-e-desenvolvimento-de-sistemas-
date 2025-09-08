@@ -4,8 +4,5 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false
-    },
-    "files.associations": {
-        "EX-17.C": "cpp"
     }
 }

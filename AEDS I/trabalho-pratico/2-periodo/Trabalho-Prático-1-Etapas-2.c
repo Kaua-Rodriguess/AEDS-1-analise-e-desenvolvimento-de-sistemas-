@@ -4,9 +4,9 @@
 
 int main(){
 
-    //!gerando numero aleatório entre 1 e 10
-    //se eu uso "rand() % 10;" vai pegar o resto da divisão por 10, que são numeros de 0 a 9
-    //nesse programa eu quero os numeros de 0 a 10
+    //!gerando numero aleatÃ³rio entre 1 e 10
+    //se eu uso "rand() % 10;" vai pegar o resto da divisao por 10, que sÃ£o numeros de 0 a 9
+    //nesse programa eu quero os numeros de 0 a 10, por isso eu somo +1
     srand(time(NULL));
     int numeroAleatorioAte10 = (rand() % 10)+ 1;
 
@@ -17,8 +17,8 @@ int main(){
     printf("\n Digite sua tentativa:");
     scanf("%i",&tentativa);
 
-    /*!Se errar, exibir uma mensagem indicando se o número secreto
-     é maior ou menor do que a tentativa. */
+    /*!Se errar, exibir uma mensagem indicando se o nÃºmero secreto
+     Ã© maior ou menor do que a tentativa. */
     if (tentativa > numeroAleatorioAte10){
         printf("tentativa 1: %i \n O numero secreto e menor que %i",tentativa,tentativa);
 
