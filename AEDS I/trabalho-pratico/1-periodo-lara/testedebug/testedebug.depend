@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1757786192 source:c:\users\kauar\onedrive\Área de trabalho\e.sotware\1º-perÍodo\aeds i\aeds-1-analise-e-desenvolvimento-de-sistemas-\aeds i\trabalho-pratico\1-periodo-lara\testedebug\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
