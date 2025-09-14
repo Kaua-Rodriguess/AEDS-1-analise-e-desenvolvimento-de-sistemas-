@@ -8,7 +8,7 @@
 
 int main(){
 
-  
+    //ETAPA 1
     srand(time(NULL));
     int numeroAleatorioAte10 = (rand() % 10)+ 1;//numeros de 0 a 10, por isso eu somo +1
     int tentativa=0;
@@ -21,6 +21,7 @@ int main(){
     /*!Se errar, exibir uma mensagem indicando se o número secreto
      é maior ou menor do que a tentativa. */
 
+     //ETAPA 2-Número Aleatório e Múltiplas Tentativas 
      do{
         printf("\nDigite um numero:");
         scanf("%i",&chute);
@@ -46,6 +47,8 @@ int main(){
         else{
            printf("\nAcabou os numeros de tentativas, voce perdeu! \n O numero secreto era %d",numeroAleatorioAte10);  
         }
+     //ETAPA 3- Níveis de Dificuldade
      
+
     return 0;
 }
