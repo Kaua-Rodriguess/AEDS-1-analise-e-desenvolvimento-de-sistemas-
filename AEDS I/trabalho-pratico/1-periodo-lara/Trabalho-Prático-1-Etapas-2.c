@@ -14,34 +14,38 @@ int main(){
     int tentativa=0;
     int chute;
 
-    printf("Bem-vindo ao jogo de adivinhacao \n");
+    printf("\n====Bem-vindo ao jogo de adivinhacao=======\n");
     printf("Tente adivinhar o numero secreto entre 1 e 10\n");
+    printf("Voce tem 3 tentativas!\n");
 
     /*!Se errar, exibir uma mensagem indicando se o número secreto
      é maior ou menor do que a tentativa. */
 
      do{
-        printf("\n Digite um numero: \n");
+        printf("\nDigite um numero:");
         scanf("%i",&chute);
+        tentativa++;
 
          if(chute < numeroAleatorioAte10){
-            //printf("Tentativa : %i \n",tentativa);
+            printf("Tentativa %i: %i \n",tentativa,chute);
             printf("O numero secreto e maior!\n");
          }
 
-         else if(tentativa > numeroAleatorioAte10){
-            //printf("Tentativa : %i \n",tentativa);
+         else {
+            printf("Tentativa %i: %i \n",tentativa,chute);
             printf("O numero secreto e menor!\n");
          }
 
-        else if(tentativa == numeroAleatorioAte10){
-            printf("\nParabens, voce acertou");
+//VERIFICO SE MEU NUMERO É MENOR OU MAIOR QUE O NUMERO SECRETO, MEU PROGRAMA ENCERRA QUANDO O NUMERO FOR IGUAL E TENTATIVA FOR=3    
+     }while(chute != numeroAleatorioAte10 && tentativa <3);
+
+     //AQUI EU PEGO O ULTIMO NUMERO QUE EU DIGITEI NA 3º TENTATIVA E COMPARO, SE ELE FOR IGUAL O PROGRAMA FALA QUE EU ACERTEI SE NÃO É POQUE MEU NUMERO DE TENTAIVAS ACABOU
+        if(chute == numeroAleatorioAte10){
+            printf("\nParabens, voce acertou o numero secreto era %d",numeroAleatorioAte10);
         }
         else{
-            printf("\nAcabou os numeros de tentativas, voce perdeu!");
+           printf("\nAcabou os numeros de tentativas, voce perdeu! \n O numero secreto era %d",numeroAleatorioAte10);  
         }
-
-     }while();
      
     return 0;
 }
