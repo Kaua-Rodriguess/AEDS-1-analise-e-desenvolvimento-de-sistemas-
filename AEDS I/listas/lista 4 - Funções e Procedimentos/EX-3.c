@@ -1,4 +1,4 @@
-/*
+tt2/*
 3. Função para calcular a soma de dois números 
 Escreva uma função que receba dois números inteiros e retorne a soma deles.
 */
