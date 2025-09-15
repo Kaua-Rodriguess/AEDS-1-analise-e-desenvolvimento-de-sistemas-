@@ -1,5 +1,5 @@
-/*!Exercício 1) Analise o seguinte trecho de código em C. Sua tarefa é identificar e corrigir
-os erros, além de fazer uma pequena modificação na lógica do programa.
+/*!Exercï¿½cio 1) Analise o seguinte trecho de cï¿½digo em C. Sua tarefa ï¿½ identificar e corrigir
+os erros, alï¿½m de fazer uma pequena modificaï¿½ï¿½o na lï¿½gica do programa.
 
 #include <stdio.h>
 int main() {
@@ -10,10 +10,10 @@ printf("Altura: %.2f\n", altura);
 return 0;
 }
 Tarefas:
-1. Corrija o erro: A variável idade foi declarada com o tipo incorreto para o valor que
-está sendo atribuído. Corrija a declaração para que o código compile e execute
+1. Corrija o erro: A variï¿½vel idade foi declarada com o tipo incorreto para o valor que
+estï¿½ sendo atribuï¿½do. Corrija a declaraï¿½ï¿½o para que o cï¿½digo compile e execute
 corretamente.
-2. Modifique o valor: Altere o valor da variável altura de 1.75 para 1.80.*/
+2. Modifique o valor: Altere o valor da variï¿½vel altura de 1.75 para 1.80.*/
 
 #include <stdio.h>
 
@@ -23,7 +23,7 @@ int main(){
     printf("Idade: %d\n", idade);
     printf("Altura: %.2f\n", altura);
 
-    //!modificando a lógica do programa.
+    //!modificando a lï¿½gica do programa.
     printf("Digite uma nova idade:");
     scanf("%d",&idade);
 
