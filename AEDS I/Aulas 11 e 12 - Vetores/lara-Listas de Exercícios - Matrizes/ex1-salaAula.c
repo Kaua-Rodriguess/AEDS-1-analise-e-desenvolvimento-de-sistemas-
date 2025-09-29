@@ -1,3 +1,4 @@
+// crie um vetor de tamanho 5 que leia a idade de n alunos e calcule sua média 
 #include <stdio.h>
 
 int main(){
