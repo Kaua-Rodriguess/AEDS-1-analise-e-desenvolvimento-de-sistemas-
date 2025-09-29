@@ -1,7 +1,7 @@
 //! Gerando numero aleatório entre 1 e 10
 //se eu uso "rand() % 10;" vai pegar o resto da divisao por 10, que são numeros de 0 a 9
 //nesse programa eu quero os numeros de 0 a 10, por isso eu somo +1
-//! ERROS A SEREM TRATADOS: quando eu acerto o numero, ele faz uma verificação se e menor ou não, ou seja
+//! ERROS A SEREM TRATADOS quando eu acerto o numero, ele faz uma verificação se e menor ou não, ou seja
 //! se o numero for 3 ele fala, esse numero é maior, e depois fala parabens vc acertou, tenho que arrumar um jeito para que quando ele acerte so fale que ele acertou sem verificar
 
 #include <stdio.h>
@@ -20,9 +20,9 @@ int main()
     printf("\nPrimeiro escolha um numero para selecionar o nivel de dificuldade:\n");
     printf("\n1-Facil(Numero entre 1 e 10, 5 tentativas)");
     printf("\n2-Medio(Numero entre 1 e 50, 7 tentativas)");
-    printf("\n3-Dificil(Numero entre 1 e 100, 10 tentativas)
-           printf("\n DIGITE AQUI:");
-           scanf("%d",&nivel);
+    printf("\n3-Dificil(Numero entre 1 e 100, 10 tentativas");
+    printf("\n DIGITE AQUI:");
+    scanf("%d",&nivel);
 
            switch(nivel)
 {
@@ -77,7 +77,7 @@ case 1:
             }
             else
             {
-                printf("\nTentativas acabaram,nao foi dessa vez! Tente novamente!");
+                printf("\nTENTATIVAS acabaram,nao foi dessa vez! Tente novamente!");
                 printf("\nO numero secreto era %d", numeroAte10);
             }
 
@@ -131,7 +131,7 @@ case 1:
             }
             else
             {
-                printf("\nTentativas acabaram,nao foi dessa vez! Tente novamente!");
+                printf("\nTENTATIVAS acabaram,nao foi dessa vez! Tente novamente!");
                 printf("\nO numero secreto era %d", numeroAte50);
             }
 
@@ -182,7 +182,7 @@ case 1:
             }
             else
             {
-                printf("\nTentativas acabaram,nao foi dessa vez! Tente novamente!");
+                printf("\nTENTATIVAS acabaram,nao foi dessa vez! Tente novamente!");
                 printf("\nO numero secreto era %d", numeroAte100);
             }
 
@@ -197,3 +197,4 @@ case 1:
 
     return 0;
 }
+    
