@@ -6,7 +6,7 @@
   int main(){
     int n,contador=0;
 
-    printf("Quantos alunos tem na sala: \n");
+    printf("\n Quantos alunos tem na sala: \n");
     scanf("%d",&n);
 
     float nota1[n],nota2[n],soma[n];
@@ -26,12 +26,12 @@
         soma[n]=nota1[i]+nota2[i];
 
         if(soma[n] >= 60){
-        printf("Aluno %d Aprovado!\n",i+1);
+        printf("\nAluno %d Aprovado!\n",i+1);
         contador++;
         }
         else
         {
-            printf("Aluno %d Reprovado\n!",i+1);
+            printf("Aluno %d Reprovado!\n",i+1);
         }
     }
 
