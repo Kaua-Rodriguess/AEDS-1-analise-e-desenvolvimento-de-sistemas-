@@ -6,7 +6,7 @@ int main(){
     float media;
 
     for(int i=0;i<5;i++){
-        printf("Digite sua idade:\n"); //guardo idade de 5 alunos  
+        printf("\nDigite idade %d:\n",i+1); //guardo idade de 5 alunos  
         scanf("%d",&idade[i]);
     }
     
