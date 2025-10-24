@@ -5,8 +5,6 @@ void copiaVetores(int *ptr,int *Pcopia,int tamanho){
         Pcopia++;
     }
 }
-
-
 int main(){
     int n;
     printf("\nDigite o tamanho do vetor:");

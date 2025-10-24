@@ -9,7 +9,7 @@ int main(){
 
     printf("Digite um numero:\n");
     for(int i=0;i<10;i++){
-        printf("Numero %d:\n",i+1);
+        printf("Numero %d:",i+1);
         scanf("%d",&vetor[i]);
     }
 

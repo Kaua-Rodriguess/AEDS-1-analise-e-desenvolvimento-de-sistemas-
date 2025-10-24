@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int buscarVetor(int *Pvetor,int numero){
+int buscarVetor(int *Pvetor,int *Pnumero){
     for(int i=0;i<5;i++){
-        if(*Pvetor==numero){
-            //printf("numero %d esta na posicao [%d]",numero,i);
+        if(*Pvetor==*Pnumero){
+            //printf("numero %d esta na posicao [%d]",*Pnumero,i);
             return true;
         }
         Pvetor++;
@@ -14,9 +14,9 @@ int buscarVetor(int *Pvetor,int numero){
 
 int main(){
     int numero=10;
-    int vetor[5]={1,2,1,3,4};
+    int vetor[5]={1,2,1,10,4};
 
-    if(buscarVetor(vetor,numero)){
+    if(buscarVetor(vetor,&numero)){
         printf("\ntem no vetor!\n");
     }
     else{
