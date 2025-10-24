@@ -1,74 +1,81 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 int menu()
 {   //!ETAPA 1
     int opcao;
-    do{
         printf("\n =====SISTEMA DE JOGOS ONLINE=====\n");
         printf("1. Ranking Recursivo\n");
-        printf("2. Registrar Pontua��o \n");
-        printf("3. Estat�sticas de Partidas \n");
-        printf("4. Simula��o de Decis�o T�tica \n");
-        printf("5. Manipula��o de Dados com Ponteiros \n");
+        printf("2. Registrar Pontuacaoo \n");
+        printf("3. Estatísticas de Partidas \n");
+        printf("4. Simulacao de Decisao Tatica \n");
+        printf("5. Manipulacao de Dados com Ponteiros \n");
         printf("6. Registrar Jogadores em Arquivo \n");
         printf("7. Migrar Sistema para Struct\n");
         printf("8. Sair \n");
+        printf("Digite uma opcao:");
         scanf("%d",&opcao);
 
-        if(opcao<1){
-            printf("Digite uma opcao valida!!");
-        }
-    }while(opcao<8);
-
   return opcao;
+
 }
 
-int main()
-{
-    int op= menu();
+int rankingRecursivo(int n);
 
-    switch (op)
-    {
+int main(){
+    setlocale(LC_ALL, "portuguese");
+    
+    int escolha;
+    
+    do{
+        escolha=menu();//criei uma variavel com o mesmo nome
+
+    switch(escolha){
         case 1:
         {
-
+            printf("\n====1. Ranking Recursivo escolhido====\n");
+            int n=0;//numero de fases concluidas
+            printf("\nQuantas fases foram concluidas?:");
+            scanf("%d",&n);
+            printf("Pontuacao total: %d pontos!\n",rankingRecursivo(n));// retorne a pontuação total. 
+            break;
         }
-        break;
+        
         case 2:
         {
-
+            //Etapa 3 – Registro de Pontuações (com Vetores)
+            int vetor[10];
+            printf("Quantas fases o jogador concluiu?");
+            break;
         }
-        break;
-        case 3:
+        
+        case 8:
         {
-
+            printf("Programa encerrado!!\n");
+            break;
         }
-        break;
-        case 4:
-        {
-
-        }
-        break;
-        case 5:
-        {
-
-        }
-        break;
-        case 6:
-        {
-
-        }
-        break;
-        case 7:
-        {
-        }
-        break;
-
-
     default:
+    {
+        printf("Digite uma opção válida!! Digite um número entre 1 e 8.\n");
         break;
     }
+     }
 
-    return 0;
+    }  while(escolha != 8);
+    
+
+return 0;
+}
+
+//Etapa 2 – Ranking Recursivo
+//receba como parâmetro o número de fases concluídas (n) e retorne a pontuação total. 
+int rankingRecursivo(int n){
+    if(n == 1 ){
+        return 100;
+    }
+    else {
+
+        return 100+rankingRecursivo(n-1);
+    }
 }
