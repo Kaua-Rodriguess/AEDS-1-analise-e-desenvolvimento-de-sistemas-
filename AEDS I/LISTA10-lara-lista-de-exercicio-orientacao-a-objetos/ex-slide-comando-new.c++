@@ -36,7 +36,7 @@ class Produto{
 
 int main(){
     Produto p1 ("descricao produto 1", 1.99F,200);
-    Produto *p2->new Produto("Descricao produto 2",1.99f,200); 
+    Produto *p2 new Produto("Descricao produto 2",1.99f,200); 
 
     //objeto - Exemplo 1
     cout << "Produto:" << p1.descricao << endl;
